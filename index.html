@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<title>Art.Jacly.Net</title>
+<head>
+  <link rel="icon" type="image/x-icon" href="img/warbunny.png">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<header>
+
+  <meta name="viewport" content="width=device-width" />
+    <nav class="container">
+      <label for="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <input type="checkbox" id="hamburger">
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href="about.html">Index (WIP)</a></li>
+        <li><a href="https://cloud.jacly.net">cloud.Jacly.net</a></li>
+        <li>                     
+          <a href="index.html">
+            <span>Jacly.net</span>
+            <span>Home Website<br> Jaclyn Michael Von Jekyll</span>
+          </a>
+        </li>
+        <li><a href="https://art.Jacly.net">art.Jacly.net</a></li>
+        <li><a href="about.html">About me </a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <div >
+      <br>
+      <a>&nbsp;</a>
+
+    <main class="grid">
+<div></div>
+<div style="height:1500px; width:100%">I have nothing to put on this page lol</div>
+
+  </div>
+</div>
+
+
+
+
+
+</main>
+</div>
+</div>
+</body>
+<footer>
+  <div class="content"><h1>Artwork Display on Art.Jacly.Net is legally protected by U.K. & international copyright laws.</h1> <div></div>
+  Under no circumstance may you download, reproduce, publish or distribute elsewhere, in any medium.
+<div class="con">Contact : Root@mail.Jacly.net<br>@COMRSPN</div> 
+<div>No Business / Comissions / Advertisements Accepted.</div> 
+</div>
+
+
+</footer>
+
+
+
+<script>for(let element of document.getElementsByTagName("img")) 
+  element.oncontextmenu = function(){alert('Please refrain from copying my work');}</script>
+  <script>document.body.style.webkitTouchCallout='none';
+  </script> 
+
+
+ <script>  
+var modal = document.getElementById('myModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> 
+
+
+
+<!--ESCAPE KEY CLOSE MODAL CONTROL-->
+<script>    document.addEventListener('keyup',function(e){
+  if (e.key === "Escape") { 
+      // hide modal code
+      closeModal()
+  }
+});
+</script>
+
+  <!--MODAL CONTROLLER-->
+  <script>
+
+    // Open the Modal
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+      document.getElementById("myModal").scrollTop=0;
+    }
+    
+    // Close the Modal
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+</html>   
